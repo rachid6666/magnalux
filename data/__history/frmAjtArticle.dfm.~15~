@@ -1,0 +1,309 @@
+object frmAjtarticlee: TfrmAjtarticlee
+  Left = 0
+  Top = 0
+  BorderStyle = bsDialog
+  Caption = 'Ajouter un noveau article'
+  ClientHeight = 483
+  ClientWidth = 468
+  Color = 5141146
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poOwnerFormCenter
+  StyleElements = [seFont, seBorder]
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 98
+    Top = 35
+    Width = 65
+    Height = 23
+    Caption = 'ID produit'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial Narrow'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 46
+    Top = 84
+    Width = 116
+    Height = 23
+    Caption = 'Reference article'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial Narrow'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 79
+    Top = 136
+    Width = 84
+    Height = 23
+    Caption = 'Code_barre'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial Narrow'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 80
+    Top = 172
+    Width = 82
+    Height = 23
+    Caption = 'D'#233'signation'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial Narrow'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 100
+    Top = 206
+    Width = 54
+    Height = 23
+    Caption = 'Marque'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial Narrow'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 59
+    Top = 242
+    Width = 105
+    Height = 23
+    Caption = 'Qauntit'#233' article '
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial Narrow'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 40
+    Top = 284
+    Width = 135
+    Height = 23
+    Caption = 'Prix vente hors taxe'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial Narrow'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label8: TLabel
+    Left = 48
+    Top = 322
+    Width = 121
+    Height = 23
+    Caption = 'Prix vente faciliter '
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial Narrow'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label9: TLabel
+    Left = 49
+    Top = 369
+    Width = 135
+    Height = 23
+    Caption = 'Prix vente esp'#232'ces '
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial Narrow'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 192
+    Top = 37
+    Width = 204
+    Height = 31
+    Alignment = taCenter
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial Narrow'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    Text = 'Edit1'
+    TextHint = 'ID produit'
+  end
+  object Edit2: TEdit
+    Left = 192
+    Top = 86
+    Width = 204
+    Height = 31
+    Alignment = taCenter
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial Narrow'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+    Text = 'Edit2'
+    TextHint = 'reference article'
+  end
+  object Edit3: TEdit
+    Left = 192
+    Top = 132
+    Width = 204
+    Height = 31
+    Alignment = taCenter
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial Narrow'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+    Text = 'Edit3'
+    TextHint = 'code barre '
+  end
+  object Edit4: TEdit
+    Left = 192
+    Top = 203
+    Width = 204
+    Height = 31
+    Alignment = taCenter
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial Narrow'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+    Text = 'Edit4'
+    TextHint = 'Marque'
+  end
+  object Edit5: TEdit
+    Left = 192
+    Top = 239
+    Width = 204
+    Height = 31
+    Alignment = taCenter
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial Narrow'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 4
+    Text = 'Edit5'
+    TextHint = 'Qauntit'#233' article '
+  end
+  object Edit7: TEdit
+    Left = 192
+    Top = 281
+    Width = 204
+    Height = 31
+    Alignment = taCenter
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial Narrow'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 5
+    Text = 'Edit7'
+    TextHint = 'Prix vente hors taxr'
+  end
+  object Edit8: TEdit
+    Left = 192
+    Top = 319
+    Width = 204
+    Height = 31
+    Alignment = taCenter
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial Narrow'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 6
+    Text = 'Edit8'
+    TextHint = 'Prix vente faciliter '
+  end
+  object Edit9: TEdit
+    Left = 190
+    Top = 366
+    Width = 204
+    Height = 31
+    Alignment = taCenter
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial Narrow'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 7
+    Text = 'Edit9'
+    TextHint = 'Prix vente esp'#233'ces'
+  end
+  object Edit6: TEdit
+    Left = 192
+    Top = 169
+    Width = 204
+    Height = 31
+    Alignment = taCenter
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial Narrow'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 8
+    Text = 'Edit6'
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 440
+    Width = 468
+    Height = 43
+    Align = alBottom
+    Caption = 'Panel1'
+    ShowCaption = False
+    TabOrder = 9
+    object Button1: TButton
+      Left = 144
+      Top = 1
+      Width = 232
+      Height = 41
+      Align = alRight
+      Caption = 'Enregister'
+      TabOrder = 0
+      OnClick = Button1Click
+    end
+    object Button2: TButton
+      Left = 376
+      Top = 1
+      Width = 91
+      Height = 41
+      Align = alRight
+      Caption = 'Annuler'
+      TabOrder = 1
+      OnClick = Button2Click
+    end
+  end
+end

@@ -1,0 +1,22 @@
+object DataModule5: TDataModule5
+  OldCreateOrder = False
+  Height = 293
+  Width = 402
+  object ADOConnection1: TADOConnection
+    Left = 168
+    Top = 24
+  end
+  object ADOTable1: TADOTable
+    Left = 48
+    Top = 136
+  end
+  object ADOQuery1: TADOQuery
+    Parameters = <>
+    Left = 232
+    Top = 104
+  end
+  object DataSource1: TDataSource
+    Left = 56
+    Top = 192
+  end
+end

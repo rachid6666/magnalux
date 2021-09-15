@@ -1,0 +1,103 @@
+unit frmAjtClient;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ComCtrls, Vcl.ExtCtrls;
+
+type
+  TAjtClient = class(TForm)
+    Edit1: TEdit;
+    Edit2: TEdit;
+    Edit3: TEdit;
+    Edit4: TEdit;
+    Edit5: TEdit;
+    Edit7: TEdit;
+    Edit8: TEdit;
+    Edit9: TEdit;
+    Edit11: TEdit;
+    Edit13: TEdit;
+    Edit14: TEdit;
+    Edit15: TEdit;
+    Edit16: TEdit;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
+    Label6: TLabel;
+    Label7: TLabel;
+    Label8: TLabel;
+    Label9: TLabel;
+    Label10: TLabel;
+    Label11: TLabel;
+    Label12: TLabel;
+    Label13: TLabel;
+    Label14: TLabel;
+    Label15: TLabel;
+    Label16: TLabel;
+    DateTimePicker1: TDateTimePicker;
+    DateTimePicker2: TDateTimePicker;
+    Panel1: TPanel;
+    Button2: TButton;
+    Button1: TButton;
+    Shape1: TShape;
+    Shape2: TShape;
+    Shape3: TShape;
+    Edit10: TEdit;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Déclarations privées }
+  public
+    { Déclarations publiques }
+  end;
+
+var
+  AjtClient: TAjtClient;
+
+implementation
+
+{$R *.dfm}
+
+uses frmClinet, data_model;
+
+procedure TAjtClient.Button1Click(Sender: TObject);
+begin
+//------cas de noveau client
+  if client.op='N' then
+  begin
+       with dm.ADOQueryClient do
+          begin
+            close;
+              with dm.ADOQueryClient.SQL do
+                begin
+                  clear;
+                  add('Use showroom_38 ');
+                  add('INSERT INTO client ');
+                  add('(ref_art,code_barre,designation,marque,qts_art,prix_achats_ht,prix_vente_faciliter,prix_vente_cache )');
+                  add('VALUES');
+                  add('(:ref_art,:code_barre,:designation,:marque,:qts_art,:prix_achats_ht,:prix_vente_faciliter,:prix_vente_cache)');
+                  parameters.ParamByName('ref_art').Value:=Edit2.text;
+                  parameters.ParamByName('code_barre').Value:=Edit3.text;
+                  parameters.ParamByName('marque').Value:=Edit4.text;
+                  parameters.ParamByName('qts_art').Value:=Edit5.text;
+                  parameters.ParamByName('designation').Value:=Edit6.text;
+                  parameters.ParamByName('prix_achats_ht').Value:=Edit7.text;
+                  parameters.ParamByName('prix_vente_faciliter').Value:=Edit8.text;
+                  parameters.ParamByName('prix_vente_cache').Value:=Edit9.text;
+                  execsql;
+                end;
+
+              frmArticle.refresh.onClick(self);
+            ShowMessage(' Article ajouté avec succès  ');
+
+          end;
+  end;
+  
+
+//----- cas de modifer client
+
+end;
+
+end.

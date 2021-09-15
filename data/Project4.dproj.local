@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/08/25 13:33:47.000.620,=C:\Users\ASUS\Documents\Embarcadero\Studio\Projets\Unit4.pas</Transaction>
+    <Transaction>2021/08/25 14:04:17.000.611,=C:\Users\ASUS\Documents\Embarcadero\Studio\Projets\Unit4.pas</Transaction>
+    <Transaction>2021/08/25 14:04:54.000.952,C:\Users\ASUS\Documents\Embarcadero\Studio\Projets\Unit4.dfm=C:\Users\ASUS\Desktop\projet amine faciliter\application\app\Unit4.dfm</Transaction>
+    <Transaction>2021/08/25 14:04:54.000.952,C:\Users\ASUS\Documents\Embarcadero\Studio\Projets\Unit4.pas=C:\Users\ASUS\Desktop\projet amine faciliter\application\app\Unit4.pas</Transaction>
+    <Transaction>2021/08/25 17:17:40.000.681,=C:\Users\ASUS\Documents\Embarcadero\Studio\Projets\Unit5.pas</Transaction>
+    <Transaction>2021/08/25 17:18:55.000.616,C:\Users\ASUS\Documents\Embarcadero\Studio\Projets\Unit5.dfm=C:\Users\ASUS\Desktop\projet amine faciliter\application\data\Unit5.dfm</Transaction>
+    <Transaction>2021/08/25 17:18:55.000.616,C:\Users\ASUS\Documents\Embarcadero\Studio\Projets\Unit5.pas=C:\Users\ASUS\Desktop\projet amine faciliter\application\data\Unit5.pas</Transaction>
+    <Transaction>2021/08/25 17:19:13.000.424,C:\Users\ASUS\Documents\Embarcadero\Studio\Projets\Project4.dproj=C:\Users\ASUS\Desktop\projet amine faciliter\application\data\Project4.dproj</Transaction>
+    <Transaction>2021/08/27 11:45:52.000.819,=C:\Users\ASUS\Desktop\projet amine faciliter\application\data\Unit1.pas</Transaction>
+    <Transaction>2021/08/27 11:59:57.000.338,=C:\Users\ASUS\Desktop\projet amine faciliter\application\data\Unit1.pas</Transaction>
+    <Transaction>2021/08/27 12:17:00.000.462,C:\Users\ASUS\Desktop\projet amine faciliter\application\data\Unit1.dfm=C:\Users\ASUS\Desktop\projet amine faciliter\application\modules\Unit1.dfm</Transaction>
+    <Transaction>2021/08/27 12:17:00.000.462,C:\Users\ASUS\Desktop\projet amine faciliter\application\data\Unit1.pas=C:\Users\ASUS\Desktop\projet amine faciliter\application\modules\Unit1.pas</Transaction>
+    <Transaction>2021/08/27 18:31:13.000.915,=C:\Users\ASUS\Desktop\projet amine faciliter\application\data\Unit2.pas</Transaction>
+    <Transaction>2021/08/28 17:36:16.000.022,=C:\Users\ASUS\Desktop\projet amine faciliter\application\data\Unit2.pas</Transaction>
+    <Transaction>2021/08/28 17:37:43.000.044,C:\Users\ASUS\Desktop\projet amine faciliter\application\data\Unit2.dfm=C:\Users\ASUS\Desktop\projet amine faciliter\application\modules\Unit2.dfm</Transaction>
+    <Transaction>2021/08/28 17:37:43.000.044,C:\Users\ASUS\Desktop\projet amine faciliter\application\data\Unit2.pas=C:\Users\ASUS\Desktop\projet amine faciliter\application\modules\Unit2.pas</Transaction>
+    <Transaction>2021/08/31 11:43:38.000.050,C:\Users\ASUS\Desktop\projet amine faciliter\application\modules\Unit1.pas=</Transaction>
+    <Transaction>2021/08/31 11:44:40.000.778,C:\Users\ASUS\Desktop\projet amine faciliter\application\data\Unit5.dfm=C:\Users\ASUS\Desktop\projet amine faciliter\application\data\data_model.dfm</Transaction>
+    <Transaction>2021/08/31 11:44:40.000.778,C:\Users\ASUS\Desktop\projet amine faciliter\application\data\Unit5.pas=C:\Users\ASUS\Desktop\projet amine faciliter\application\data\data_model.pas</Transaction>
+    <Transaction>2021/08/31 11:45:07.000.090,C:\Users\ASUS\Desktop\projet amine faciliter\application\app\Unit4.dfm=C:\Users\ASUS\Desktop\projet amine faciliter\application\app\Main.dfm</Transaction>
+    <Transaction>2021/08/31 11:45:07.000.090,C:\Users\ASUS\Desktop\projet amine faciliter\application\app\Unit4.pas=C:\Users\ASUS\Desktop\projet amine faciliter\application\app\Main.pas</Transaction>
+    <Transaction>2021/08/31 12:02:48.000.498,=C:\Users\ASUS\Desktop\projet amine faciliter\application\data\Unit1.pas</Transaction>
+    <Transaction>2021/08/31 12:03:48.000.881,=C:\Users\ASUS\Desktop\projet amine faciliter\application\data\Unit1.pas</Transaction>
+    <Transaction>2021/08/31 12:56:55.000.438,C:\Users\ASUS\Desktop\projet amine faciliter\application\data\Unit1.dfm=C:\Users\ASUS\Desktop\projet amine faciliter\application\modules\Unit1.dfm</Transaction>
+    <Transaction>2021/08/31 12:56:55.000.438,C:\Users\ASUS\Desktop\projet amine faciliter\application\data\Unit1.pas=C:\Users\ASUS\Desktop\projet amine faciliter\application\modules\Unit1.pas</Transaction>
+    <Transaction>2021/08/31 12:57:05.000.765,C:\Users\ASUS\Desktop\projet amine faciliter\application\modules\Unit1.dfm=</Transaction>
+    <Transaction>2021/08/31 12:57:23.000.883,=C:\Users\ASUS\Desktop\projet amine faciliter\application\data\Unit1.pas</Transaction>
+    <Transaction>2021/08/31 12:57:41.000.945,C:\Users\ASUS\Desktop\projet amine faciliter\application\data\Unit1.pas=C:\Users\ASUS\Desktop\projet amine faciliter\application\modules\Unit1.pas</Transaction>
+    <Transaction>2021/08/31 12:57:41.000.945,C:\Users\ASUS\Desktop\projet amine faciliter\application\data\Unit1.dfm=C:\Users\ASUS\Desktop\projet amine faciliter\application\modules\Unit1.dfm</Transaction>
+    <Transaction>2021/09/06 21:38:17.000.566,C:\Users\ASUS\Desktop\projet amine faciliter\application\modules\article.pas=C:\Users\ASUS\Desktop\projet amine faciliter\application\modules\Unit1.pas</Transaction>
+    <Transaction>2021/09/06 21:38:17.000.566,C:\Users\ASUS\Desktop\projet amine faciliter\application\modules\article.dfm=C:\Users\ASUS\Desktop\projet amine faciliter\application\modules\Unit1.dfm</Transaction>
+    <Transaction>2021/09/10 01:11:27.000.794,C:\Users\ASUS\Desktop\projet amine faciliter\application\modules\Unit2.dfm=C:\Users\ASUS\Desktop\projet amine faciliter\application\modules\frmClinet.dfm</Transaction>
+    <Transaction>2021/09/10 01:11:27.000.794,C:\Users\ASUS\Desktop\projet amine faciliter\application\modules\Unit2.pas=C:\Users\ASUS\Desktop\projet amine faciliter\application\modules\frmClinet.pas</Transaction>
+    <Transaction>2021/09/10 01:32:43.000.864,=C:\Users\ASUS\Desktop\projet amine faciliter\application\data\Unit1.pas</Transaction>
+    <Transaction>2021/09/10 01:36:34.000.381,C:\Users\ASUS\Desktop\projet amine faciliter\application\data\Unit1.pas=C:\Users\ASUS\Desktop\projet amine faciliter\application\data\frmAjtArticle.pas</Transaction>
+    <Transaction>2021/09/10 01:36:34.000.382,C:\Users\ASUS\Desktop\projet amine faciliter\application\data\Unit1.dfm=C:\Users\ASUS\Desktop\projet amine faciliter\application\data\frmAjtArticle.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

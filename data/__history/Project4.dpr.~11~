@@ -1,0 +1,23 @@
+program Project4;
+
+uses
+  Vcl.Forms,
+  Main in '..\app\Main.pas' {Form4},
+  data_model in 'data_model.pas' {DataModule5: TDataModule},
+  Unit2 in '..\modules\Unit2.pas' {Form2},
+  article in '..\modules\article.pas' {form3},
+  Vcl.Themes,
+  Vcl.Styles;
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  TStyleManager.TrySetStyle('Windows10 Dark');
+  Application.CreateForm(TForm4, Form4);
+  Application.CreateForm(TDataModule5, DataModule5);
+  Application.CreateForm(TForm2, Form2);
+  Application.CreateForm(Tform3, form3);
+  Application.Run;
+end.
